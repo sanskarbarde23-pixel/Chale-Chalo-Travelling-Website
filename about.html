@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us — ChaloChale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"><i class="fa-solid fa-plane-departure"></i> ChaloChale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="signup.html" class="btn btn-warning ms-lg-3 rounded-pill px-4 fw-semibold">Sign Up</a>
+                <a href="login.html" class="btn btn-outline-light ms-lg-2 rounded-pill px-4 fw-semibold">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" style="background-image:url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1400&q=60')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <span class="badge-pill badge text-bg-warning mb-3"><i class="fa-solid fa-people-group me-1"></i> Our Story</span>
+                    <h1 class="mb-3">ChaloChale — Because the world is too big to stay home.</h1>
+                    <p class="lead">What started as two friends planning a Goa trip in 2019 is now a travel community of 50,000+ explorers across India and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story + image -->
+    <section class="section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal-left">
+                    <h2 class="section-title left mb-3">How We Started</h2>
+                    <p class="text-muted">ChaloChale was born on a chaotic platform at Delhi airport — two friends with a shared love for spontaneous travel and zero patience for overpriced packages.</p>
+                    <p class="text-muted">We believed travel should be <strong>simple, honest and joyful</strong>. So we built an app that shows you real prices, real stays and real experiences — no hidden fees, no tourist-trap traps.</p>
+                    <p class="text-muted">Today, our team of travel obsessives hand-checks every hotel, maps every itinerary and answers every query personally. Because for us, "chalo chale" isn't a slogan — it's how we live.</p>
+                    <a href="packages.html" class="btn-cc mt-2">Start Exploring <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col-lg-6 reveal-right">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=60"
+                             class="img-fluid rounded-4 shadow" alt="Travellers">
+                        <div class="position-absolute bottom-0 start-0 translate-middle-y ms-3">
+                            <div class="card border-0 shadow-lg rounded-4 p-3 d-flex flex-row align-items-center gap-3" style="background:var(--cc-gradient)">
+                                <div class="bg-white text-success rounded-circle d-flex align-items-center justify-content-center" style="width:52px;height:52px">
+                                    <i class="fa-solid fa-award fs-4"></i>
+                                </div>
+                                <div class="text-white">
+                                    <div class="fw-bold">Award-Winning</div>
+                                    <small class="opacity-75">Travel Platform 2025</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3 reveal"><div class="stat-card"><div class="stat-icon"><i class="fa-solid fa-user-group"></i></div><div class="stat-num" data-count="50000" data-suffix="+">0</div><div class="stat-label">Community Members</div></div></div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.1s"><div class="stat-card"><div class="stat-icon"><i class="fa-solid fa-map-location-dot"></i></div><div class="stat-num" data-count="60" data-suffix="+">0</div><div class="stat-label">Destinations</div></div></div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.2s"><div class="stat-card"><div class="stat-icon"><i class="fa-solid fa-suitcase-rolling"></i></div><div class="stat-num" data-count="12000" data-suffix="+">0</div><div class="stat-label">Trips Completed</div></div></div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.3s"><div class="stat-card"><div class="stat-icon"><i class="fa-solid fa-star"></i></div><div class="stat-num" data-count="98" data-suffix="%">0</div><div class="stat-label">Satisfaction Rate</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="section-title">What We Stand For</h2>
+                <p class="section-sub">Three values guide every trip we design.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal">
+                    <div class="card card-cc h-100 text-center p-4">
+                        <span class="feature-icon t1 mx-auto"><i class="fa-solid fa-hand-holding-heart"></i></span>
+                        <h5 class="fw-bold">Honest Pricing</h5>
+                        <p class="text-muted mb-0">The price you see is the price you pay. We publish our margins and match competitors.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.12s">
+                    <div class="card card-cc h-100 text-center p-4">
+                        <span class="feature-icon t2 mx-auto"><i class="fa-solid fa-leaf"></i></span>
+                        <h5 class="fw-bold">Responsible Travel</h5>
+                        <p class="text-muted mb-0">We partner with local businesses and offset carbon on every international flight booking.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.24s">
+                    <div class="card card-cc h-100 text-center p-4">
+                        <span class="feature-icon t3 mx-auto"><i class="fa-solid fa-comments"></i></span>
+                        <h5 class="fw-bold">Human Support</h5>
+                        <p class="text-muted mb-0">No bots, no tickets lost in voids — a real travel nerd picks up your call, 24/7.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5 reveal">
+                        <h2 class="section-title">Our Journey</h2>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item reveal">
+                            <div class="year">2019 — The Beginning</div>
+                            <p class="text-muted mb-0">Two friends book their first Goa trip and realise booking platforms are broken. ChaloChale is sketched on a napkin.</p>
+                        </div>
+                        <div class="timeline-item reveal">
+                            <div class="year">2021 — Launch</div>
+                            <p class="text-muted mb-0">MVP goes live with 12 Indian destinations. First 500 bookings happen in month one — mostly word of mouth.</p>
+                        </div>
+                        <div class="timeline-item reveal">
+                            <div class="year">2023 — Go International</div>
+                            <p class="text-muted mb-0">Bali, Dubai and Europe packages launch. Community crosses 25,000 travellers.</p>
+                        </div>
+                        <div class="timeline-item reveal">
+                            <div class="year">2025 — Award Winner</div>
+                            <p class="text-muted mb-0">Named "Best Emerging Travel Platform". Team grows to 40 across product, ops and 24/7 support.</p>
+                        </div>
+                        <div class="timeline-item reveal mb-0">
+                            <div class="year">2026 — What's Next</div>
+                            <p class="text-muted mb-0">AI-powered trip planner, group bookings and creator collabs — the journey continues. ChaloChale!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+        <div class="container text-center reveal">
+            <h2 class="fw-bold mb-3">Ready to Write Your Story?</h2>
+            <p class="text-muted mb-4">Join 50,000+ travellers who've already said "chalo chale".</p>
+            <a href="packages.html" class="btn-cc btn-cc-dark me-2">Browse Packages</a>
+            <a href="contact.html" class="btn-cc-outline" style="border-color:var(--cc-dark);color:var(--cc-dark)">Talk to Us</a>
+        </div>
+    </section>
+
+    <footer class="footer-cc">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand mb-3"><i class="fa-solid fa-plane-departure"></i> ChaloChale</div>
+                    <p>ChaloChale — "let's go!" We craft unforgettable journeys across India and the world.</p>
+                    <div class="mt-3">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="destinations.html">Destinations</a></li>
+                        <li class="mb-2"><a href="packages.html">Packages</a></li>
+                        <li class="mb-2"><a href="booking.html">Book a Trip</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="about.html">Our Story</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a href="contact.html">Careers</a></li>
+                        <li class="mb-2"><a href="contact.html">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Get in Touch</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</li>
+                        <li class="mb-2"><i class="fa-solid fa-envelope me-2"></i> hello@chalochale.com</li>
+                        <li class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> MG Road, Bengaluru, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                © <span data-year>2026</span> ChaloChale Travel App. All rights reserved. Crafted with <i class="fa-solid fa-heart text-danger"></i> for explorers.
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

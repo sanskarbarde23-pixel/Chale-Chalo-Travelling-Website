@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaloChale — Explore the World With Us</title>
+    <meta name="description" content="ChaloChale — book amazing destinations, packages and trips across India and the world.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa-solid fa-plane-departure"></i> ChaloChale
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="signup.html" class="btn btn-warning ms-lg-3 rounded-pill px-4 fw-semibold">Sign Up</a>
+                <a href="login.html" class="btn btn-outline-light ms-lg-2 rounded-pill px-4 fw-semibold">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Video Hero -->
+    <section class="video-hero">
+        <video autoplay muted loop playsinline
+               poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=70">
+            <source src="https://assets.mixkit.co/videos/5371/5371-720.mp4" type="video/mp4">
+        </video>
+        <div class="video-hero-overlay"></div>
+
+        <div class="container video-hero-content">
+            <span class="badge-pill badge text-bg-warning mb-3"><i class="fa-solid fa-fire me-1"></i> Trending Now</span>
+            <h1 class="mb-3">Wander Beyond the Ordinary</h1>
+            <p class="lead mb-4">From turquoise coastlines to Himalayan silence — ChaloChale crafts journeys you'll talk about for years.</p>
+            <div class="d-flex flex-wrap gap-3">
+                <a href="destinations.html" class="btn-cc">Explore Destinations <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="packages.html" class="btn-cc-outline">View Packages</a>
+            </div>
+        </div>
+
+        <a href="#trending" class="scroll-hint" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+
+        <button type="button" class="hero-sound" id="heroSound" aria-label="Toggle sound">
+            <i class="fa-solid fa-volume-xmark"></i><span>Sound Off</span>
+        </button>
+    </section>
+    <!-- Video Hero End -->
+
+    <!-- Trending Video Destinations -->
+    <section class="section section-alt" id="trending">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="section-title">Trending Right Now</h2>
+                <p class="section-sub">Hover over a clip to preview — tap "Packages" to book the full experience.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 reveal">
+                    <div class="video-card">
+                        <video muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=700&q=60">
+                            <source src="https://assets.mixkit.co/videos/41576/41576-720.mp4" type="video/mp4">
+                        </video>
+                        <button type="button" class="card-mute" aria-label="Toggle sound"><i class="fa-solid fa-volume-xmark"></i></button>
+                        <span class="play-fab"><i class="fa-solid fa-play"></i></span>
+                        <div class="video-card-overlay">
+                            <h5>Mountain Escapes</h5>
+                            <small>Manali · Ladakh · Switzerland</small>
+                            <a href="destinations.html" class="video-explore">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 reveal" style="--reveal-delay:.1s">
+                    <div class="video-card">
+                        <video muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=700&q=60">
+                            <source src="https://assets.mixkit.co/videos/5016/5016-720.mp4" type="video/mp4">
+                        </video>
+                        <button type="button" class="card-mute" aria-label="Toggle sound"><i class="fa-solid fa-volume-xmark"></i></button>
+                        <span class="play-fab"><i class="fa-solid fa-play"></i></span>
+                        <div class="video-card-overlay">
+                            <h5>Beach Holidays</h5>
+                            <small>Goa · Kerala · Maldives</small>
+                            <a href="destinations.html" class="video-explore">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 reveal" style="--reveal-delay:.2s">
+                    <div class="video-card">
+                        <video muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=700&q=60">
+                            <source src="https://assets.mixkit.co/videos/4646/4646-720.mp4" type="video/mp4">
+                        </video>
+                        <button type="button" class="card-mute" aria-label="Toggle sound"><i class="fa-solid fa-volume-xmark"></i></button>
+                        <span class="play-fab"><i class="fa-solid fa-play"></i></span>
+                        <div class="video-card-overlay">
+                            <h5>City Breaks</h5>
+                            <small>Dubai · Paris · Jaipur</small>
+                            <a href="destinations.html" class="video-explore">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 reveal" style="--reveal-delay:.3s">
+                    <div class="video-card">
+                        <video muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=700&q=60">
+                            <source src="https://assets.mixkit.co/videos/4692/4692-720.mp4" type="video/mp4">
+                        </video>
+                        <button type="button" class="card-mute" aria-label="Toggle sound"><i class="fa-solid fa-volume-xmark"></i></button>
+                        <span class="play-fab"><i class="fa-solid fa-play"></i></span>
+                        <div class="video-card-overlay">
+                            <h5>Island Getaways</h5>
+                            <small>Bali · Santorini</small>
+                            <a href="destinations.html" class="video-explore">Explore <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4 reveal">
+                <a href="destinations.html" class="btn-cc btn-cc-dark">See All Destinations <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Trending End -->
+
+    <!-- Stats Strip -->
+    <section class="section-sm bg-white">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-6 col-md-3 reveal">
+                    <div class="stat-card"><div class="stat-num" data-count="1200" data-suffix="+">0</div><div class="stat-label">Happy Travellers</div></div>
+                </div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.1s">
+                    <div class="stat-card"><div class="stat-num" data-count="60" data-suffix="+">0</div><div class="stat-label">Destinations</div></div>
+                </div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.2s">
+                    <div class="stat-card"><div class="stat-num" data-count="5000" data-suffix="+">0</div><div class="stat-label">Trips Booked</div></div>
+                </div>
+                <div class="col-6 col-md-3 reveal" style="--reveal-delay:.3s">
+                    <div class="stat-card"><div class="stat-num" data-count="4.8" data-suffix="★">0</div><div class="stat-label">Average Rating</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why ChaloChale -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <h2 class="section-title">Why Choose ChaloChale?</h2>
+                <p class="section-sub">Everything you need for a flawless trip, in one place.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t1"><i class="fa-solid fa-tag"></i></span>
+                        <h5 class="fw-bold">Best Price Guarantee</h5>
+                        <p class="text-muted mb-0">We match or beat any comparable price you find elsewhere.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.12s">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t2"><i class="fa-solid fa-headset"></i></span>
+                        <h5 class="fw-bold">24/7 Support</h5>
+                        <p class="text-muted mb-0">Real humans on chat, call and WhatsApp — anytime, anywhere.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.24s">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t3"><i class="fa-solid fa-shield-halved"></i></span>
+                        <h5 class="fw-bold">Secure Booking</h5>
+                        <p class="text-muted mb-0">Flexible cancellations and fully encrypted payments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t4"><i class="fa-solid fa-route"></i></span>
+                        <h5 class="fw-bold">Handcrafted Itineraries</h5>
+                        <p class="text-muted mb-0">Trips designed by travellers, tuned to your pace and budget.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.12s">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t5"><i class="fa-solid fa-hotel"></i></span>
+                        <h5 class="fw-bold">Verified Stays</h5>
+                        <p class="text-muted mb-0">Every hotel and homestay personally inspected by our team.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal" style="--reveal-delay:.24s">
+                    <div class="card card-cc feature-card text-center p-4">
+                        <span class="feature-icon t6"><i class="fa-solid fa-gift"></i></span>
+                        <h5 class="fw-bold">Member Rewards</h5>
+                        <p class="text-muted mb-0">Earn credits on every booking and unlock member-only deals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Newsletter -->
+    <section class="section">
+        <div class="container">
+            <div class="newsletter-box reveal">
+                <div class="row align-items-center g-3">
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-2">Get Travel Deals in Your Inbox</h3>
+                        <p class="mb-0 opacity-75">Weekly price drops, hidden-gem destinations and early-bird offers.</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <form class="newsletter-form d-flex" novalidate>
+                            <input type="email" class="form-control" placeholder="Your email address" required>
+                            <button class="btn btn-warning fw-semibold text-dark" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-cc">
+        <div class="container">
+            <div class="row g-4 pb-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand mb-3"><i class="fa-solid fa-plane-departure"></i> ChaloChale</div>
+                    <p>ChaloChale — "let's go!" We craft unforgettable journeys across India and the world. Your adventure starts with a single click.</p>
+                    <div class="mt-3">
+                        <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="destinations.html">Destinations</a></li>
+                        <li class="mb-2"><a href="packages.html">Packages</a></li>
+                        <li class="mb-2"><a href="booking.html">Book a Trip</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="about.html">Our Story</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a href="contact.html">Careers</a></li>
+                        <li class="mb-2"><a href="contact.html">Press</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Get in Touch</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</li>
+                        <li class="mb-2"><i class="fa-solid fa-envelope me-2"></i> hello@chalochale.com</li>
+                        <li class="mb-2"><i class="fa-solid fa-location-dot me-2"></i> MG Road, Bengaluru, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                © <span data-year>2026</span> ChaloChale Travel App. All rights reserved. Crafted with <i class="fa-solid fa-heart text-danger"></i> for explorers.
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
